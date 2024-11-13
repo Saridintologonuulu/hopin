@@ -1,0 +1,265 @@
+@import'./style.css';
+
+header {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #F0EBE1;
+    padding: 16px 24px;
+    border-radius: 37px;
+    font-family: "Roboto" sans-serif;
+    border: 1px solid #2625223D;
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        img {}
+
+        h6 {
+            width: 45px;
+            margin-left: 8px;
+        }
+    }
+
+
+    .menu {
+        a {
+            margin-right: 24px;
+            padding: 8px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+
+        .search {
+            width: 37px;
+            height: 37px;
+            border-radius: 50%;
+            line-height: 50px;
+        }
+
+        .subscr {
+            padding: 12px 24px;
+            border-radius: 24px;
+            background-color: rgba(0, 0, 0, 0.56);
+            color: white;
+            text-transform: uppercase;
+            margin-left: 16px;
+        }
+    }
+}
+
+.hero {
+    padding: 120px 0;
+    text-align: center;
+    background-image: url('./img/102svg.png');
+    border-radius: 32px;
+
+    .hero-content {
+        width: 869px;
+        margin: auto;
+
+        h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 75px;
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        p {
+            width: 418px;
+            color: white;
+            /* font-size: 21px; */
+            margin: auto;
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            padding: 12px 24px;
+            border-radius: 24px;
+            color: black;
+        }
+
+        .hero-btn {
+            background-color: #F29C33;
+
+        }
+    }
+
+}
+
+.menu-start {
+    background-color: #F0EBE1;
+    padding: 40px;
+    border-radius: 32px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    .menu-text {
+        width: 494px;
+        padding-top: 148px;
+
+
+        button.menu-btn1 {
+            margin-bottom: 20px;
+            padding: 4px 8px 4px 8px;
+            border-radius: 12px;
+            background: #EE6352;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+
+        button.menu-btn2 {
+            width: 115px;
+            height: 38px;
+            border-radius: 24px;
+            border: 1px solid #262522;
+            background-color: transparent;
+            color: currentColor;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            margin-bottom: 12px;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 40px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+    }
+
+    .menu-items {
+        width: 494px;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #26252229;
+            padding: 17px 0;
+
+            img {}
+
+            h4 {
+                font-size: 18px;
+                font-weight: 600;
+                font-family: "Montserrat", sans-serif;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+}
+
+
+
+
+.recipes {
+    .recipes-top{
+        text-align: center;
+    }
+
+    .recipes-btn {
+        padding: 4px 8px;
+        font-size: 14px;
+        text-transform: uppercase;
+        background-color: red;
+        margin-bottom: 8px;
+        border-radius: 12px;
+    }
+
+    h3 {
+        font-family: "Mantserrat", sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+
+    p {
+        margin-bottom: 40px;
+        font-weight: 300;
+        line-height: 22.4px;
+        letter-spacing: 0.01em;
+        width: 426px;
+        margin: auto;
+    }
+
+    .recipes-buttons {
+        margin-bottom: 40px;
+    }
+
+    .recipes-cards {
+        .card {
+            width: 427px;
+            border-radius: 24px;
+            border: 1px solid #262522af;
+            .card-img {}
+
+            .card-text {
+                background: #fffbf2;
+                border-bottom-right-radius: 24ox;
+                border-top-right-radius: 24px;
+                padding: 24px 24px 16px;
+                h4 {
+                    font-family: "Montserrat", sons-serif;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 28.8px;
+                    letter-spacing: -0.01em;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    width: 379px;
+                    margin-bottom: 54px;
+                }
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    p {
+                        margin-bottom: 0;
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 14.4px;
+                        letter-spacing: 0.01em;
+                        text-align: left;
+                        width: auto;
+                        margin: 0;
+                    }
+
+                    button {
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 14px;
+                        padding: 12px 24px;
+                        text-transform: uppercase;
+                        background-color: transparent;
+                        border: 1px solid #26252229;
+                        color: black;
+                        border-radius: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
