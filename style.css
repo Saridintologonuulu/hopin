@@ -28,3 +28,27 @@ body{
     width: 1312px;
     margin: auto;
 }
+
+.container{
+    width: 1312px;
+    margin: auto;
+}
+.recipes-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 40px 0;
+}
+
+.recipes-buttons button{
+    padding: 12px 24px;
+    border-radius: 24px;
+    background-color: transparent;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+.recipes-buttons button.active{
+    background-color: #9FDC26;
+}
